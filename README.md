@@ -49,7 +49,7 @@ are configured (`cli.json`, not `opencode.json`):
 ```json title="~/.config/opencode/cli.json"
 {
   "$schema": "https://opencode.ai/v2/cli.json",
-  "plugins": ["C:/hienlt/opencode-usage-plugin"]
+  "plugins": ["<your-path>/opencode-usage-plugin"]
 }
 ```
 
@@ -70,7 +70,7 @@ Options go in the plugin entry:
 {
   "plugins": [
     {
-      "package": "C:/hienlt/opencode-usage-plugin",
+      "package": "<your-path>/opencode-usage-plugin",
       "options": {
         "home": true,
         "prompt": true,
